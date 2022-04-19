@@ -1992,6 +1992,30 @@ section {
 }
 
 
+/* -------------------------------------------------------------
+# Placements
+---------------------------------------------------------------- */
+
+.placement .entry .entry-content .read-more {
+    -moz-text-align-last: right;
+    text-align-last: right;
+}
+
+.placement .entry .entry-content .read-more a {
+    display: inline-block;
+    background: #d9232d;
+    color: #fff;
+    padding: 6px 20px;
+    transition: 0.3s;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.placement .entry .entry-content .read-more a:hover {
+    background: #df3740;
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
