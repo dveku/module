@@ -2045,6 +2045,155 @@ tbody tr:hover {
     background-color: #eef1f5;
 }
 
+.placement .sidebar {
+    padding: 30px;
+    margin: 0 0 60px 60px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.placement .sidebar .sidebar-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 0 0;
+    margin: 0 0 15px 0;
+    color: #556270;
+    position: relative;
+}
+
+.placement .sidebar .sidebar-item {
+    margin-bottom: 30px;
+}
+
+.placement .sidebar .search-form form {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 3px 10px;
+    position: relative;
+}
+
+.placement .sidebar .search-form form input[type="text"] {
+    border: 0;
+    padding: 4px;
+    border-radius: 4px;
+    width: calc(100% - 40px);
+}
+
+.placement .sidebar .search-form form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 15px;
+    margin: -1px;
+    background: #d9232d;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+    line-height: 0;
+}
+
+.placement .sidebar .search-form form button i {
+    line-height: 0;
+}
+
+.placement .sidebar .search-form form button:hover {
+    background: #de323c;
+}
+
+.placement .sidebar .categories ul {
+    list-style: none;
+    padding: 0;
+}
+
+.placement .sidebar .categories ul li+li {
+    padding-top: 10px;
+}
+
+.placement .sidebar .categories ul a {
+    color: #556270;
+    transition: 0.3s;
+}
+
+.placement .sidebar .categories ul a:hover {
+    color: #d9232d;
+}
+
+.placement .sidebar .categories ul a span {
+    padding-left: 5px;
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.placement .sidebar .recent-posts .post-item+.post-item {
+    margin-top: 15px;
+}
+
+.placement .sidebar .recent-posts img {
+    width: 80px;
+    float: left;
+}
+
+.placement .sidebar .recent-posts h4 {
+    font-size: 15px;
+    margin-left: 95px;
+    font-weight: bold;
+}
+
+.placement .sidebar .recent-posts h4 a {
+    color: #556270;
+    transition: 0.3s;
+}
+
+.placement .sidebar .recent-posts h4 a:hover {
+    color: #d9232d;
+}
+
+.placement .sidebar .recent-posts time {
+    display: block;
+    margin-left: 95px;
+    font-style: italic;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.placement .sidebar .tags {
+    margin-bottom: -10px;
+}
+
+.placement .sidebar .tags ul {
+    list-style: none;
+    padding: 0;
+}
+
+.placement .sidebar .tags ul li {
+    display: inline-block;
+}
+
+.placement .sidebar .tags ul a {
+    color: #96a2af;
+    font-size: 14px;
+    padding: 6px 14px;
+    margin: 0 6px 8px 0;
+    border: 1px solid white;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.placement .sidebar .tags ul a:hover {
+    color: #fff;
+    border: 1px solid #d9232d;
+    background: #d9232d;
+}
+
+.placement .sidebar .tags ul a span {
+    padding-left: 5px;
+    color: #fbfbfc;
+    font-size: 14px;
+}
+
 
 /*--------------------------------------------------------------
 # Footer
