@@ -41,7 +41,7 @@ for (let i = 0; i < options.length; i++) {
 
 // countdown section
 // Setup End Date for Countdown (getTime == Time in Milleseconds)
-let launchDate = new Date("Nov 28, 2022 08:00:00").getTime();
+let launchDate = new Date("Nov 28, 2022 13:00:00").getTime();
 
 // Setup Timer to tick every 1 second
 let timer = setInterval(tick, 1000);
